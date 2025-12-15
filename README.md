@@ -122,12 +122,8 @@ AAPL,2025-12-15T10:00:01Z,{"price":182.45}
 MSFT,2025-12-15T10:00:02Z,{"price":315.20}
 ```
 `Response (200 OK)`
-```json
-[
-  {"instrumentId":"GOOG","asOf":"2025-12-15T10:00:00Z","payloadJson":"{\"price\":143.07}"},
-  {"instrumentId":"AAPL","asOf":"2025-12-15T10:00:01Z","payloadJson":"{\"price\":182.45}"}
-]
-
+```
+Upload accepted for batch batch-2. Call /complete to make data visible.
 ```
 
 ### 2. Complete a Batch
